@@ -7,6 +7,14 @@ To run application locally in docker container do the following steps:
 
 `git clone https://github.com/trrttrtrsrfewrwed/ToRelaxApp.git`
 
+* package backend part:
+
+`cd backend`
+
+`mvn package -Dmaven.test.skip=true`
+
+`cd ..`
+
 * build docker-images for frontend and backend separately:
 
 `docker build --file=frontend/frontend.dockerfile  -t torelax-frontend .`
