@@ -5,7 +5,7 @@ Application is available at https://torelax.herokuapp.com/signup
 To run application locally in docker container do the following steps:
 * clone this repo:
 
-`https://github.com/trrttrtrsrfewrwed/ToRelaxApp.git`
+`git clone https://github.com/trrttrtrsrfewrwed/ToRelaxApp.git`
 
 * build docker-images for frontend and backend separately:
 
