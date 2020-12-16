@@ -1,0 +1,95 @@
+.button0 {
+    height: 5vh;
+    font-size: 2vh;
+    padding: 0 1vw;
+    border-radius: 2.5vh;
+    border: 0.3vh solid #8797EB;
+    color: #8797EB;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button0:hover {
+    background-color: #AFBBF9;
+    color: white;
+}
+
+.button0:active {
+    background-color: #8797EB;
+    color: white;
+}
+
+.inversed:active {
+    background-color: #C7CFFA;
+}
+
+.button0:focus {
+    outline: none
+}
+
+.button0[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+    user-select: none;
+}
+
+.inversed{
+    color: #FFFFFF;
+    background-color:#8797EB;
+    border: 0.3vh solid #FFFFFF;
+}
+
+.button1 {
+    height: 2vh;
+    background: none;
+    border: none;
+    font-size: 2vh;
+    padding: 0 1vw;
+    color: #8797EB;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button1:hover {
+    color: #AFBBF9;
+}
+
+.button1:active {
+    color:  #C7CFFA;
+}
+
+.button1:focus {
+    outline: none;
+}
+
+.button1[disabled] {
+    color: #BABABA;
+    pointer-events: none;
+    user-select: none;
+}
+
+.button2 {
+    height: 4vh;
+    font-size: 3vh;
+    padding: 0 1vw;
+    border-radius: 5px;
+    border: 0.3vh solid #8797EB;
+    color: #8797EB;
+    cursor: pointer;
+    background-color: white;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.button2:hover {
+    background-color: #8797EB;
+    color: white;
+}
+
+.button2:active {
+    background-color: #C7CFFA;
+}
+
+.button2:focus {
+    outline: none
+}

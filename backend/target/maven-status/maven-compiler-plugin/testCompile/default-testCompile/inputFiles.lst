@@ -1,0 +1,4 @@
+/home/mr_tross/Fullstack/backend/src/test/java/backend/controller/UserControllerIntegrationTest.java
+/home/mr_tross/Fullstack/backend/src/test/java/backend/controller/UserControllerTest.java
+/home/mr_tross/Fullstack/backend/src/test/java/backend/repository/UserRepositoryTest.java
+/home/mr_tross/Fullstack/backend/src/test/java/backend/service/impl/UserServiceImplTest.java

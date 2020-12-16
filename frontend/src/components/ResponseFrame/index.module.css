@@ -1,0 +1,89 @@
+.activities_list {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: min(320px, 100wv);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.activities_list >*:first-child {
+    align-self: start;
+}
+
+.activities_list >*:nth-child(2) {
+    align-self: start;
+}
+
+.activities_list > *{
+    margin-bottom: 5px;
+}
+
+.mainFrame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ruler {
+    width: 68px;
+    height: 433px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-220px, -100%);
+}
+
+.hat {
+    width: 122px;
+    height: 27px;
+    transform: translateX(-30px) translateY(-100px);
+}
+
+.startTime {
+    position: absolute;
+    top: 65%;
+    transform: translate(-285px, -40px);
+}
+
+.fullTime {
+    position: absolute;
+    top: 65%;
+    transform: translate(-285px, -450px);
+}
+
+.time {
+    transform: translateX(-120px) translateY(50px);
+}
+
+.scales {
+    width: 335px;
+    height: 187px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow {
+    width: 71px;
+    transform-origin: 95% 40%;
+    transition-timing-function: ease-in;
+    position: relative;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-110%) translateY(-30px); 
+}

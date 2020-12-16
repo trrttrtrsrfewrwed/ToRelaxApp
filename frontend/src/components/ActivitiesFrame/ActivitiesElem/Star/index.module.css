@@ -1,0 +1,45 @@
+.star{
+    font-size: 3vh;    
+    cursor: default;
+}
+
+.gray {
+    color: #b1b1b1;
+}
+
+.yellow {
+    color: #FBFF4E;
+}
+
+.light_gray {
+    color: #BABABA;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+}
+
+.input_wrapper:hover {
+    border: 2px solid #BABABA;
+}
+
+.input_wrapper > * {
+    align-self: center;
+    margin-block-start: 0px;
+    margin-block-end:  0px;
+    width: 20%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper > * {
+    align-self: center;
+    margin-block-start: 0px;
+    margin-block-end:  0px;
+    width: 20%;
+}

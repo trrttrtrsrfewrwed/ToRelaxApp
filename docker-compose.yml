@@ -1,0 +1,11 @@
+version: '3'
+services:
+  torelax-frontend:
+    image: torelax-frontend:latest
+    ports:
+      - 3000:3000
+  torelax-backend:
+    image: torelax-backend:latest
+    ports:
+      - 8080:8080
+

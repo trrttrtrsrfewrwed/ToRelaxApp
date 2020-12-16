@@ -1,0 +1,20 @@
+.brow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brow > * {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-right: 5px;
+}
+
+.brow {
+    border: 2px solid white;
+    cursor: default;
+}
+
+.brow:hover {
+    border: 2px solid #BABABA;
+}

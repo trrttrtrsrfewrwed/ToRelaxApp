@@ -1,0 +1,90 @@
+.frame {
+    min-width: min(100vw, 320px);
+    min-height: 40vh;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame:first-child > .brow{
+    width: 100%;
+}
+
+.frame > * {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.brow {
+    width: min(100vw, 320px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brow > * {
+    margin-right: 10px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+}
+.timeInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.duration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.timeInput > * {
+    width: 10vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    color: #8797EB;
+    outline: none;
+}
+
+.timeInput > *::placeholder {
+    color: #BABABA;
+}
+
+.textArea {
+    width: 90%;
+    height: 7vh;
+    font-size: 2vh;
+    padding: 0 5px;
+    resize: none;
+    border: none;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    color: #8797EB
+}
+
+.textArea:focus {
+    outline: none
+}
+
+.textArea:hover {
+    border-top: 2px solid #BABABA;
+    border-bottom: 2px solid #BABABA;
+}
+
+.last_brow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 15px;
+}

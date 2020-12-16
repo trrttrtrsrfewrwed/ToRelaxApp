@@ -1,0 +1,6 @@
+backend/controller/UserControllerTest$ApplicationSecurity.class
+backend/repository/UserRepositoryTest.class
+backend/service/impl/UserServiceImplTest$UserServiceImplTestConfig.class
+backend/service/impl/UserServiceImplTest.class
+backend/controller/UserControllerIntegrationTest.class
+backend/controller/UserControllerTest.class
